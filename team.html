@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arknights: a Retrospective</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal_img.css">
+    <link rel="stylesheet" href="css/tooltip.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="story.html">Story</a>
+        <a href="events.html">Events</a>
+        <a class="active" href="team.html">Team Building</a>
+        <a href="gacha.html">Gacha</a>
+        <a href="community.html">Community</a>
+        <a href="conclusion.html">Conclusion</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h1>Team Building</h1>
+        <figure>
+            <!-- Trigger the Modal -->
+            <img id="myImg" src="img/is2team.png" 
+            alt="Operators from left to right:
+            Greyy, Deepcolor, Midnight, Perfumer, Thorns, Fang,
+            Jaye, Suzuran, Archetto, Eyjafjalla, Orchid, Warfarin">
+            <figcaption>
+                A team that successfully completed the first ending
+                of the roguelite gamemode.
+            </figcaption>
+        </figure>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div> 
+                
+        <p>
+            Honestly, you can probably use whoever you want and clear all of the stages. 
+            This is probably one of the many reasons why Arknights is so beloved by the community. 
+            Choose your
+            <span class="tooltip">favorite characters
+                <span class="tooltiptext">Perfumer, Thorns, Suzuran, Archetto, etc.</span>
+            </span>
+            and as long as your brain is big enough 
+            and your patience long enough, anything is possible with the right strategy. 
+            Of course, there are many 
+            <span class="tooltip">units that can trivialize difficulty 
+                <span class="tooltiptext">Thorns, Eyjafjalla, etc.</span>
+            </span>
+            if you are into that, 
+            but be prepared to gather enough resources to hire them...
+        </p>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/modal_img.js"></script>
+
+</body>
+
+</html>
