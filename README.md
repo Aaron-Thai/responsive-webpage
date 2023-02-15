@@ -1,5 +1,7 @@
 # Lab 2: Responsive Web Page Design
 
+**Link to website:** https://aaron-thai.github.io/responsive-webpage/
+
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
 
 **Due:** Oct 30th, by 11:59pm | **Points Available** = 50
